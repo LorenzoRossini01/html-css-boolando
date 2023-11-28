@@ -138,8 +138,12 @@ main .card:hover .img-hover {
   z-index: 1;
 }
 
-.heart:active {
+.heart:hover {
   color: red;
+}
+
+.heart:active {
+  color: gold;
 }
 
 /* CARD DESCRIPTION */
