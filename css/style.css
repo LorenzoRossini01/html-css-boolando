@@ -13,7 +13,7 @@
   margin: 0 auto;
 
   /* debug */
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 ul {
@@ -150,4 +150,44 @@ main div img {
 
 .normal-price {
   text-decoration: line-through;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 80px;
+  color: white;
+  background-color: #1a1a1a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+footer ul {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.footer-icons i {
+  background-color: white;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+
+.right-footer {
+  /* text-align: center; */
 }
