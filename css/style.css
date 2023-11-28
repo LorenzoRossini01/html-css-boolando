@@ -128,3 +128,26 @@ main div img {
 .heart:active {
   color: red;
 }
+
+/* CARD DESCRIPTION */
+.card-description {
+  position: absolute;
+}
+
+.brand-name {
+}
+
+.price {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.discounted-price {
+  color: red;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.normal-price {
+  text-decoration: line-through;
+}
