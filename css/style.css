@@ -9,7 +9,7 @@
 /* UTILS */
 
 .container {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 
   /* debug */
@@ -24,7 +24,7 @@ ul {
 
 header {
   background-color: #ff6900;
-  height: 100px;
+  height: 90px;
   color: white;
   font-size: 1.3rem;
 
@@ -57,7 +57,7 @@ header a:hover {
 }
 
 .header-logo img {
-  height: 50px;
+  height: 40px;
 }
 
 .header-icons ul {
@@ -147,22 +147,17 @@ main .card:hover .img-hover {
   position: absolute;
 }
 
-.brand-name {
-}
-
 .price {
   font-size: 0.9rem;
   color: black;
+  text-decoration: line-through;
 }
 
 .discounted-price {
   color: red;
   font-weight: bolder;
   margin-right: 5px;
-}
-
-.normal-price {
-  text-decoration: line-through;
+  display: inline-block;
 }
 
 /* FOOTER */
@@ -171,10 +166,7 @@ footer {
   margin-top: 80px;
   color: white;
   background-color: #1a1a1a;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  font-size: 0.8rem;
 }
 .footer-container {
   display: flex;
@@ -192,12 +184,12 @@ footer ul {
 .footer-icons i {
   background-color: white;
   color: #1a1a1a;
-  font-size: 1.5rem;
-  width: 2rem;
-  height: 2rem;
+  font-size: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 5px;
   text-align: center;
-  line-height: 2rem;
+  line-height: 1.5rem;
   vertical-align: middle;
 }
 
