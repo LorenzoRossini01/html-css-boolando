@@ -9,7 +9,7 @@
 /* UTILS */
 
 .container {
-  width: 1200px;
+  width: 1750px;
   margin: 0 auto;
 
   /* debug */
@@ -38,7 +38,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  height: 100px;
+  height: 90px;
 }
 
 header li {
@@ -166,8 +166,10 @@ footer {
   margin-top: 80px;
   color: white;
   background-color: #1a1a1a;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
+  border-bottom: 3px solid white;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -191,8 +193,4 @@ footer ul {
   text-align: center;
   line-height: 1.5rem;
   vertical-align: middle;
-}
-
-.right-footer {
-  /* text-align: center; */
 }
